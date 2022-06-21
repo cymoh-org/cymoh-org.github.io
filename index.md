@@ -1,4 +1,7 @@
-# Christian Youth Ministries of Hawaii
+
+## [Christian Youth Ministries of Hawaii](http://cymoh.org/)
+
+# Summer Activities
 
 Christian Youth Ministries of Hawaii (CYMOH) has been taking college students/young adults on short term missions trips to the islands of Hawaii to assist local missionaries and churches with their summer outreach programs for the past 50 years.  Founded by retired Liberty University professors, Bob & Brenda Bonheim, CYMOH been instrumental in the leading of hundreds of local youth across the islands to Christ.  CYMOH’s purpose is partnering with existing local ministries to spread the Gospel, encourage and disciple local youth in their walk with Christ, and complete community service work projects.
 
