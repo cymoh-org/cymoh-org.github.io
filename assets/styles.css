@@ -1,0 +1,9 @@
+
+@font-face { font-family: "Katahdin Round";     src: url("file:///D:/GitHub/cymoh.github.io/assets/fonts/KatahdinRound.otf")     format("opentype"); }
+@font-face { font-family: "Broadley Script";    src: url("file:///D:/GitHub/cymoh.github.io/assets/fonts/BroadleyScript.otf")    format("opentype"); }
+
+html, body {
+    margin: 0;  padding: 0px;
+
+    font-family: "Katahdin Round";
+}
