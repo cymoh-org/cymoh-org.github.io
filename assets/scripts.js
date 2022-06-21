@@ -1,6 +1,7 @@
 
 async function init(file) {
     let markdown = await get_file(file);
+    console.log(markdown);
     document.body.innerHTML = marked.parse(markdown);
 }
 
