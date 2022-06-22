@@ -17,7 +17,7 @@ body {
     text-align: center;
     background-color: var(--color-blue);
 }
-.body {
+#body {
     width: 50%;
     height: 100%;
     transform: translateX(50%);
