@@ -14,13 +14,12 @@ html, body {
 }
 
 body {
-    width: 50%;
-    transform: translateX(50%);
-
     text-align: center;
     background-color: var(--color-blue);
 }
 .body {
+    width: 60%;
+    transform: translateX(20%);
     background-color: #FFFFFF;
 }
 
@@ -43,4 +42,8 @@ h2 {
     font-family: "Katahdin Round";
 
     margin: 0;
+}
+
+h1, h2, p {
+    padding: 16px;
 }
