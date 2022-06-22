@@ -18,6 +18,10 @@ body {
     transform: translateX(50%);
 
     text-align: center;
+    background-color: var(--color-blue);
+}
+.body {
+    background-color: #FFFFFF;
 }
 
 a, a:visited {
@@ -26,13 +30,17 @@ a, a:visited {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 112px;
     color: var(--color-yellow);
     font-family: "Broadley Script";
+
+    margin: 0;
 }
 
 h2 {
     font-size: 48px;
     color: var(--color-red);
     font-family: "Katahdin Round";
+
+    margin: 0;
 }
