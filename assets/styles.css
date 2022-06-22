@@ -10,14 +10,29 @@ html, body {
     --color-red:        #F15A42FF;
     --color-yellow:     #F4C030FF;
 
-    font-family: "Katahdin Round";
+    font-family: "Arial";
+}
+
+body {
+    width: 50%;
+    transform: translateX(50%);
+
+    text-align: center;
+}
+
+a, a:visited {
+    all: unset;
+    cursor: pointer;
 }
 
 h1 {
+    font-size: 48px;
     color: var(--color-yellow);
     font-family: "Broadley Script";
 }
 
 h2 {
+    font-size: 48px;
     color: var(--color-red);
+    font-family: "Katahdin Round";
 }

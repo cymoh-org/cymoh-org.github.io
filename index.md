@@ -16,3 +16,6 @@ Christian Youth Ministries of Hawaii is currently being led by Corey & Elizabeth
 
 
 Fore More information on this summer’s upcoming trip choose the “Summer 2020 Opportunities” Link above.
+
+
+<iframe src="https://www.youtube.com/embed/ZoBkXPqwVXU" allowfullscreen="" frameborder="0"></iframe>
