@@ -4,6 +4,8 @@
 
 html, body {
     margin: 0;  padding: 0px;
+    width: 50%;
+    height: 100%;
 
     --color-blue:       #A4D7C4FF;
     --color-pink:       #F8A284FF;
