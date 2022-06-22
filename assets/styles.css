@@ -1,4 +1,3 @@
-
 @font-face { font-family: "Katahdin Round";     src: url("/assets/fonts/KatahdinRound.otf")     format("opentype"); }
 @font-face { font-family: "Broadley Script";    src: url("/assets/fonts/BroadleyScript.otf")    format("opentype"); }
 
@@ -10,6 +9,7 @@ html, body {
     --color-blue:       #A4D7C4FF;
     --color-pink:       #F8A284FF;
     --color-red:        #F15A42FF;
+    --color-white:      #FFFFFFFF;
     --color-yellow:     #F4C030FF;
 
     font-family: "Arial";
@@ -19,11 +19,17 @@ body {
     text-align: center;
     background-color: var(--color-blue);
 }
-#body {
+.body {
     width: 50%;
     height: 100%;
     transform: translateX(50%);
-    background-color: #FFFFFF;
+    background-color: var(--color-white);
+}
+
+.menu {
+    width:100%;
+    display: flex;
+    position: relative;
 }
 
 a, a:visited {
@@ -33,20 +39,64 @@ a, a:visited {
 
 h1 {
     font-size: 112px;
-    color: var(--color-yellow);
     font-family: "Broadley Script";
+    color: var(--color-red);
 
+    padding: 4px;
     margin: 0;
 }
 
 h2 {
-    font-size: 48px;
-    color: var(--color-red);
+    font-size: 42px;
     font-family: "Katahdin Round";
+    color: var(--color-yellow);
 
+    padding: 4px;
     margin: 0;
 }
 
-h1, h2, p {
+p {
+    padding: 4px 32px 4px 32px;
+}
+
+.button {
+    width: 100%;
     padding: 16px;
+    margin: auto;
+}
+
+input[type="button"] {
+    all: unset;
+    cursor: pointer;
+
+    width: 100%;
+    padding: 4px;
+
+    font-size: 36px;
+    font-family: "Katahdin Round";
+    color: var(--color-white);
+    background-color: var(--color-pink);
+
+    transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out;
+}
+input[type="button"]:hover {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 20%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content > input[type="button"] {
+    width: unset;
+    display: block;
+    width: 100%;
+
+    font-size: 32px;
 }

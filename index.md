@@ -1,5 +1,39 @@
 
-## [Christian Youth Ministries of Hawaii](http://cymoh.org/)
+## [Christian Youth Ministries of Hawaii](/)
+
+<div class="menu">
+<div id="button" class="button">
+    <input type="button" value="About" onclick="window.location.href='/about'"/>
+</div>
+<div id="button" class="button dropdown">
+    <input type="button" value="Trips" onclick="window.location.href='/2022/trip'"/>
+    <div class="dropdown-content">
+        <input type="button" value="2022" onclick="window.location.href='/2022/trip'"/>
+        <input type="button" value="2021" onclick="window.location.href='/2021/trip'"/>
+        <input type="button" value="2019" onclick="window.location.href='/2019/trip'"/>
+        <input type="button" value="2018" onclick="window.location.href='/2018/trip'"/>
+        <input type="button" value="2017" onclick="window.location.href='/2017/trip'"/>
+        <input type="button" value="2016" onclick="window.location.href='/2016/trip'"/>
+        <input type="button" value="2015" onclick="window.location.href='/2015/trip'"/>
+        <input type="button" value="2014" onclick="window.location.href='/2014/trip'"/>
+        <input type="button" value="2013" onclick="window.location.href='/2013/trip'"/>
+    </div>
+</div>
+<div id="button" class="button dropdown">
+    <input type="button" value="Alumni" onclick="window.location.href='/2022/team'"/>
+    <div class="dropdown-content">
+        <input type="button" value="2022" onclick="window.location.href='/2022/team'"/>
+        <input type="button" value="2021" onclick="window.location.href='/2021/team'"/>
+        <input type="button" value="2019" onclick="window.location.href='/2019/team'"/>
+        <input type="button" value="2018" onclick="window.location.href='/2018/team'"/>
+        <input type="button" value="2017" onclick="window.location.href='/2017/team'"/>
+        <input type="button" value="2016" onclick="window.location.href='/2016/team'"/>
+        <input type="button" value="2015" onclick="window.location.href='/2015/team'"/>
+        <input type="button" value="2014" onclick="window.location.href='/2014/team'"/>
+        <input type="button" value="2013" onclick="window.location.href='/2013/team'"/>
+    </div>
+</div>
+</div>
 
 # Summer Activities
 
@@ -18,4 +52,4 @@ Christian Youth Ministries of Hawaii is currently being led by Corey & Elizabeth
 Fore More information on this summer’s upcoming trip choose the “Summer 2020 Opportunities” Link above.
 
 
-<iframe src="https://www.youtube.com/embed/ZoBkXPqwVXU" allowfullscreen="" width="720" height="405" frameborder="0"></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/ZoBkXPqwVXU" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
