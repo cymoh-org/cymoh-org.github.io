@@ -88,6 +88,7 @@ input[type="button"]:hover {
     display: none;
     position: absolute;
     z-index: 1;
+    min-width: 20%;
 }
 .dropdown:hover .dropdown_content {
     display: block;
