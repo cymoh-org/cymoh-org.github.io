@@ -24,6 +24,8 @@ body {
     height: 100%;
     transform: translateX(50%);
     background-color: var(--color-white);
+
+    padding-top: 24px;
 }
 
 .menu {
@@ -61,7 +63,7 @@ p {
 
 .button {
     width: 100%;
-    padding: 16px;
+    padding: 4px 0px 4px 0px;
     margin: auto;
 }
 
@@ -70,7 +72,7 @@ input[type="button"] {
     cursor: pointer;
 
     width: 100%;
-    padding: 4px;
+    padding: 8px 0px 8px 0px;
 
     font-size: 36px;
     font-family: "Katahdin Round";
@@ -88,7 +90,7 @@ input[type="button"]:hover {
     display: none;
     position: absolute;
     z-index: 1;
-    min-width: 20%;
+    width: 33.33%;
 }
 .dropdown:hover .dropdown_content {
     display: block;
@@ -98,5 +100,5 @@ input[type="button"]:hover {
     display: block;
     width: 100%;
 
-    font-size: 32px;
+    font-size: 24px;
 }
