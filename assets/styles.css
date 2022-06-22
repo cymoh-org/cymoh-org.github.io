@@ -84,15 +84,15 @@ input[type="button"]:hover {
     background-color: var(--color-blue);
 }
 
-.dropdown-content {
+.dropdown_content {
     display: none;
     position: absolute;
     z-index: 1;
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown_content {
     display: block;
 }
-.dropdown-content > input[type="button"] {
+.dropdown_content > input[type="button"] {
     width: unset;
     display: block;
     width: 100%;

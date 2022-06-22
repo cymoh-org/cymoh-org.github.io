@@ -18,8 +18,8 @@ function get_file(file) {
 }
 
 function resize_dropdowns() {
-    let dropdowns = document.getElementsByClassName("dropdown-content");
-    for (var i = 0; i < dropdowns.length(); i++) {
-        dropdowns[i].width = dropdowns[i].parentElement.width;
+    let dropdowns = document.getElementsByClassName("dropdown_content");
+    for (var i = 0; i < dropdowns.length; i++) {
+        dropdowns[i].offsetWidth = dropdowns[i].parentElement.offsetWidth;
     }
 }

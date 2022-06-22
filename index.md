@@ -7,7 +7,7 @@
 </div>
 <div id="button" class="button dropdown">
     <input type="button" value="Trips" onclick="window.location.href='/2022/trip'"/>
-    <div class="dropdown-content">
+    <div class="dropdown_content">
         <input type="button" value="2022" onclick="window.location.href='/2022/trip'"/>
         <input type="button" value="2021" onclick="window.location.href='/2021/trip'"/>
         <input type="button" value="2019" onclick="window.location.href='/2019/trip'"/>
@@ -21,7 +21,7 @@
 </div>
 <div id="button" class="button dropdown">
     <input type="button" value="Alumni" onclick="window.location.href='/2022/team'"/>
-    <div class="dropdown-content">
+    <div class="dropdown_content">
         <input type="button" value="2022" onclick="window.location.href='/2022/team'"/>
         <input type="button" value="2021" onclick="window.location.href='/2021/team'"/>
         <input type="button" value="2019" onclick="window.location.href='/2019/team'"/>
