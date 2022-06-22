@@ -5,9 +5,19 @@
 html, body {
     margin: 0;  padding: 0px;
 
+    --color-blue:       #A4D7C4FF;
+    --color-pink:       #F8A284FF;
+    --color-red:        #F15A42FF;
+    --color-yellow:     #F4C030FF;
+
     font-family: "Katahdin Round";
 }
 
 h1 {
+    color: var(--color-yellow);
     font-family: "Broadley Script";
+}
+
+h2 {
+    color: var(--color-red);
 }
