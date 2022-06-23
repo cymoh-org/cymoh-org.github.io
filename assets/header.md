@@ -36,7 +36,3 @@
         </div>
     </div>
 </div>
-
-### Summer 2022 Team
-
-
