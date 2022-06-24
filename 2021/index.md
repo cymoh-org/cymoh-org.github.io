@@ -1,5 +1,7 @@
 
-#### Summer 2021 Team
+<div class="header_3">
+    <div>Summer Activites</div>
+</div>
 
 <img width="720" height="405" src="http://www.cymoh.org/images/img_3274-2-333.webp">
 

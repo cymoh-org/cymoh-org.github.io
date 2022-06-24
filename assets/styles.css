@@ -36,7 +36,7 @@ html, body {
     position: relative;
 }
 
-h2 {
+.header_1 {
     font-size: 112px;
     font-family: "Broadley Script";
     color: var(--color-red);
@@ -44,27 +44,26 @@ h2 {
     padding: 4px;
     margin: auto;
 }
-
-h3 {
+.header_2 {
     font-size: 32px;
     font-family: "Katahdin Round";
-    color: var(--color-yellow);
+    color: var(--color-yellow) !important;
 
     padding: 4px;
     margin: 0;
 }
-a, a:visited {
-    all: unset;
-    cursor: pointer;
-}
-
-h4 {
+.header_3 {
     font-size: 42px;
     font-family: "Katahdin Round";
     color: var(--color-red);
 
     padding: 4px;
     margin: 0;
+}
+
+a, a:visited, a:hover {
+    cursor: pointer;
+    text-decoration: none !important;
 }
 
 p {

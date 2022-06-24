@@ -1,5 +1,7 @@
 
-### Summer Activities
+<div class="header_1">
+    <div>Summer Activites</div>
+</div>
 
 <table>
     <tr>

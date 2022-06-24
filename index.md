@@ -1,22 +1,24 @@
 
-## Summer Activities
+<div class="header_1">
+    <div>Summer Activites</div>
+</div>
 
 <table>
     <tr>
         <td colspan="2">
             <a class="home_button" href="/events">
-                <div class="background_pink home_button_header">
+                <div class="background_pink text_white home_button_header">
                     <div class="home_button_header_text">Sports & Fun Nights</div>
                 </div>
             </a>
         </td>
         <td colspan="3">
             <a class="home_button" href="/events#christmas-in-june">
-                <div class="background_red">
+                <div class="background_red text_white">
                     <div class="home_button_day">Thursday</div>
                     <div class="home_button_date">June 23</div>
                 </div>
-                <div class="background_blue left">
+                <div class="background_blue text_white left">
                     <div class="home_button_description">Christmas in June</div>
                     <div class="home_button_description">Doris Todd</div>
                     <div class="home_button_description">5-7 PM</div>
@@ -25,11 +27,11 @@
         </td>
         <td colspan="3">
             <a class="home_button" href="/events#pirate-adventures">
-                <div class="background_yellow">
+                <div class="background_yellow text_white">
                     <div class="home_button_day">Tuesday</div>
                     <div class="home_button_date">June 28</div>
                 </div>
-                <div class="background_red left">
+                <div class="background_red text_white left">
                     <div class="home_button_description">Pirate Adventures</div>
                     <div class="home_button_description">Location TBD</div>
                     <div class="home_button_description">5-7 PM</div>
@@ -38,11 +40,11 @@
         </td>
         <td colspan="3">
             <a class="home_button" href="/events#family-fun-night">
-                <div class="background_blue">
+                <div class="background_blue text_white">
                     <div class="home_button_day">Thursday</div>
                     <div class="home_button_date">June 30</div>
                 </div>
-                <div class="background_pink left">
+                <div class="background_pink text_white left">
                     <div class="home_button_description">Family Fun Night</div>
                     <div class="home_button_description">Location TBD</div>
                     <div class="home_button_description">5-7 PM</div>
@@ -53,7 +55,7 @@
     <tr>
         <td colspan="3">
             <a class="home_button" href="/events#camp">
-                <div class="background_yellow home_button_header left">
+                <div class="background_yellow text_white home_button_header left">
                     <div class="home_button_info">Maui Christian Youth Camp</div>
                     <div class="home_button_description">Overnight Tent Camp at Doris Todd w/ games, crafts, fun, swimming, hiking, and Bible teaching</div>
                 </div>
