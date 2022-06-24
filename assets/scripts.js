@@ -1,17 +1,18 @@
 
-async function init(file) {
+async function init(file, id) {
     let markdown_text = await get_file(file);
-    document.getElementById("body").innerHTML += marked.parse(markdown_text);
+    document.getElementById(id).innerHTML += marked.parse(markdown_text);
 }
 
 function get_file(file) {
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onload = function() {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            console.log(xmlhttp.responseText);
-            return xmlhttp.responseText;
+    return new Promise(function(resolve) {
+        const request = new XMLHttpRequest();
+        request.addEventListener("load", request_listener);
+        request.open("GET", file);
+        request.send();
+
+        function request_listener () {
+            resolve(request.responseText)
         }
-    }
-    xmlhttp.open("GET", file, true);
-    xmlhttp.send();
+    })
 }
