@@ -15,7 +15,10 @@
         <div id="body"      class="body"></div>
     </body>
     <script>
-        init("/assets/header.md");
-        init("./index.md");
+        window.onload = async function() {
+            await init("/assets/header.md");
+            await init("./index.md");
+            await init("./images.md");
+        }
     </script>
 </html>
