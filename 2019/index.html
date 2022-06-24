@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+
+<html lang = "en">
+    <head>
+        <title>Christian Youth Ministries of Hawaii</title>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link rel = "shortcut icon" href = "/assets/icon.png"/>
+        <link rel = "stylesheet"    href = "/assets/styles.css">
+        <script src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src = "/assets/scripts.js"></script>
+    </head>
+    <body>
+        <div class="body">
+            <div id="header"></div>
+            <div id="body"></div>
+            <div id="footer"></div>
+        </div>
+    </body>
+    <script>
+        init("/assets/header.md",   "header");
+        init("./index.md",          "body");
+        init("./images.md",         "footer");
+    </script>
+</html>
