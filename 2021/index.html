@@ -12,11 +12,13 @@
         <script src = "/assets/scripts.js"></script>
     </head>
     <body>
+        <div id="header"    class="body"></div>
         <div id="body"      class="body"></div>
+        <div id="footer"    class="body"></div>
     </body>
     <script>
-        init("/assets/header.md");
-        init("./index.md");
-        init("./images.md")
+        init("/assets/header.md",   "header");
+        init("./index.md",          "body");
+        init("./images.md",         "footer");
     </script>
 </html>
