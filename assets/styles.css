@@ -7,6 +7,7 @@ html, body {
     width: 100%;
     height: 100%;
 
+    --color-black:      #000000FF;
     --color-blue:       #A4D7C4FF;
     --color-pink:       #F8A284FF;
     --color-red:        #F15A42FF;
@@ -23,16 +24,16 @@ body {
     background-color: var(--color-blue);
 }
 .body {
-    width: 50%;
+    width: 60%;
     height: 100%;
-    transform: translateX(50%);
+    margin: 0 auto;
     background-color: var(--color-white);
 
     padding-top: 24px;
 }
 
 .menu {
-    width:100%;
+    width: 100%;
     display: flex;
     position: relative;
 }
@@ -47,7 +48,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 32px;
     font-family: "Katahdin Round";
     color: var(--color-yellow);
 
@@ -70,6 +71,23 @@ h3 {
 
 p {
     padding: 4px 32px 4px 32px;
+}
+
+table {
+    table-layout: fixed;
+    border: none;
+    border-spacing: 0px;
+    border-collapse: collapse;
+
+    width: 100%;
+}
+tr {
+    width: 100%;
+    height: 100%;
+}
+td {
+    height: 100%;
+    padding: var(--button-margin);
 }
 
 .button {
@@ -101,52 +119,96 @@ p {
 .home_button {
     all: unset;
     cursor: pointer;
+    position: relative;
     display: inline-block;
 
     width: 100%;
     height: 100%;
-    padding: 8px 4px 8px 4px;
 
     font-size: 36px;
     font-family: "Katahdin Round";
     color: var(--color-white);
 }
 
-.home_button_blue {
+.reset_font {
+    font-family: "Arial";
+}
+
+.no_click {
+    cursor: unset;
+}
+
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+
+.text_black {
+    color: var(--color-black);
+}
+.text_blue {
+    color: var(--color-blue);
+}
+.text_pink {
+    color: var(--color-pink);
+}
+.text_red {
+    color: var(--color-red);
+}
+.text_white {
+    color: var(--color-white);
+}
+.text_yellow {
+    color: var(--color-yellow);
+}
+.background_blue {
     background-color: var(--color-blue);
 }
-.home_button_pink {
+.background_pink {
     background-color: var(--color-pink);
 }
-.home_button_red {
+.background_red {
     background-color: var(--color-red);
 }
-.home_button_yellow {
+.background_white {
+    background-color: var(--color-white);
+}
+.background_yellow {
     background-color: var(--color-yellow);
 }
 
 .home_button_header {
-    position: relative;
-    height: calc(100% - var(--button-margin) * 2);
-    min-height: 100px;
+    font-size: 24px;
+    padding: 4px;
+
+    width: calc(100% - var(--button-margin));
+    height: calc(100% - var(--button-margin));
 }
 .home_button_header_text {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
+
+    font-size: 24px;
 }
 .home_button_day {
-    font-size: 28px;
-    padding: 4px;
+    font-size: 24px;
+    padding: 2px 4px 2px 4px;
 }
 .home_button_date {
-    font-size: 32px;
-    padding: 0px 4px 0px 4px;
+    font-size: 36px;
+    padding: 2px 4px 2px 4px;
+}
+.home_button_info {
+    font-size: 36px;
+    padding: 2px 4px 2px 4px;
 }
 .home_button_description {
-    text-align: left;
-    font-size: 24px;
-    padding: 4px;
+    font-size: 18px;
+    padding: 2px 4px 2px 4px;
+    height: 100%;
 }
 
 .dropdown_content {
