@@ -3,7 +3,7 @@
 
 <table>
     <tr>
-        <td>
+        <td colspan="2">
             <a class="home_button" id="christmas-in-june" href="#christmas">
                 <div class="background_red">
                     <div class="home_button_day">Thursday</div>
@@ -18,7 +18,7 @@
         </td>
     </tr>
     <tr>
-        <td>
+        <td colspan="2">
             <a class="home_button" id="pirate-adventure" href="#pirate">
                 <div class="background_yellow">
                     <div class="home_button_day">Tuesday</div>
@@ -33,7 +33,7 @@
         </td>
     </tr>
     <tr>
-        <td>
+        <td colspan="2">
             <a class="home_button" id="family-fun-night" href="#family">
                 <div class="background_blue">
                     <div class="home_button_day">Thursday</div>
