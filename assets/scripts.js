@@ -5,14 +5,12 @@ function init(file) {
 }
 
 function get_file(file) {
-    return new Promise(function(resolve) {
-        const request = new XMLHttpRequest();
-        request.addEventListener("load", request_listener);
-        request.open("GET", file);
-        request.send();
-
-        function request_listener () {
-            resolve(request.responseText)
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onload = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            return(xmlhttp.responseText);
         }
-    })
+    }
+    xmlhttp.open("GET", file, true);
+    xmlhttp.send();
 }
