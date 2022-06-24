@@ -1,5 +1,5 @@
 
-# Summer Activities
+### Summer Activities
 
 <table>
     <tr>

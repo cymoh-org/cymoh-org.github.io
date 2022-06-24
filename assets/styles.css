@@ -18,12 +18,10 @@ html, body {
     --button-margin:    8px;
 
     font-family: "Arial";
-}
-
-body {
     text-align: center;
     background-color: var(--color-blue);
 }
+
 .body {
     width: 60%;
     margin: 0 auto;
@@ -38,18 +36,16 @@ body {
     position: relative;
 }
 
-h1 {
-    all: unset;
+h2 {
     font-size: 112px;
     font-family: "Broadley Script";
     color: var(--color-red);
 
     padding: 4px;
-    margin: 0;
+    margin: auto;
 }
 
-h2 {
-    all: unset;
+h3 {
     font-size: 32px;
     font-family: "Katahdin Round";
     color: var(--color-yellow);
@@ -57,12 +53,12 @@ h2 {
     padding: 4px;
     margin: 0;
 }
-h2 > a, h2 > a:visited {
+a, a:visited {
     all: unset;
     cursor: pointer;
 }
 
-h3 {
+h4 {
     font-size: 42px;
     font-family: "Katahdin Round";
     color: var(--color-red);

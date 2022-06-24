@@ -1,5 +1,5 @@
 
-## [Christian Youth Ministries of Hawaii](/)
+### [Christian Youth Ministries of Hawaii](/)
 
 <div class="menu">
     <div id="button" class="button">
