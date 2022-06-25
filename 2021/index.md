@@ -3,7 +3,7 @@
     <div>Summer 2021 Team</div>
 </div>
 
-<img width="720" height="405" src="http://www.cymoh.org/images/img_3274-2-333.webp">
+<img src="http://www.cymoh.org/images/img_3274-2-333.webp">
 
 From left to right:
 - Lily Yeatts, Madison Yeatts, Sam Pesile, Tori Wilkes, Anna Weaver, Valerie Graham, Julia Bonheim, Marla Yeatts

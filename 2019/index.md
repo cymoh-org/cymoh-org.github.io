@@ -3,7 +3,7 @@
     <div>Summer 2019 Team</div>
 </div>
 
-<img width="720" height="405" src="/assets/images/2019/IMG_6665.JPG">
+<img src="/assets/images/2019/IMG_6665.JPG">
 
 From left to right:
 - Corey Bonheim, Noah McCarthy, Ben Davidson, Blake Bonheim, John Kebles, Jared Patterson, David Osborn, Marla Yeatts, Chris Yeatts

@@ -83,8 +83,14 @@ tr {
     height: 100%;
 }
 td {
+    position: relative;
     height: 100%;
     padding: var(--button-margin);
+}
+
+img {
+    max-height: 720px;
+    max-width: 100%;
 }
 
 .button {
