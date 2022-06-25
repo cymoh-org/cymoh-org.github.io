@@ -5,6 +5,9 @@
 
 <div class="menu">
     <div id="button" class="button">
+        <input type="button" class="sub_button" value="Events" onclick="window.location.href='/events'"/>
+    </div>
+    <div id="button" class="button">
         <input type="button" class="sub_button" value="About" onclick="window.location.href='/about'"/>
     </div>
     <div id="button" class="button dropdown">
