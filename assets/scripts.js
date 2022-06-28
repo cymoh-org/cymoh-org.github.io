@@ -16,3 +16,13 @@ function get_file(file) {
         }
     })
 }
+
+function show_image(image) {
+    document.getElementById("modal_image").setAttribute("src", image.getAttribute("src"));
+    document.getElementById("modal_caption").innerHTML = image.getAttribute("description");
+    document.getElementById("modal").style.display = "block";
+}
+
+function hide_image() {
+    document.getElementById("modal").style.display = "none";
+}
