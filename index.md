@@ -1,6 +1,6 @@
 
 <div class="header_1">
-    <div>Summer Activites</div>
+    <div>Summer Activities</div>
 </div>
 
 <table class="mobile">
