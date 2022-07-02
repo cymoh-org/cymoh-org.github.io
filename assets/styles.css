@@ -38,6 +38,9 @@ html, body {
 
         width: calc(100% - (4 * 8px));
     }
+    .header_1 {
+        font-size: 72px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -54,6 +57,9 @@ html, body {
         margin: 8px auto;
 
         width: calc(100% - (4 * 8px));
+    }
+    .header_1 {
+        font-size: 84px;
     }
 } 
 
@@ -74,6 +80,9 @@ html, body {
         width: 60%;
         min-width: 960px;
     }
+    .header_1 {
+        font-size: 112px;
+    }
 }
 
 /* main section */
@@ -83,7 +92,6 @@ html, body {
 }
 
 .header_1 {
-    font-size: 112px;
     font-family: "Broadley Script";
     color: var(--color-red);
 
@@ -164,7 +172,30 @@ td img {
     color: var(--color-white);
 }
 .sub_button {
+    width: unset;
+    display: block;
+    width: 100%;
+
+    font-size: 24px;
     padding: 8px 0px 8px 0px;
+}
+.button .white {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.125s ease-in-out;
+}
+.button:hover .white {
+    display: none;
+    opacity: 0;
+}
+.button .color {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.125s ease-in-out;
+}
+.button:hover .color {
+    display: block;
+    opacity: 1;
 }
 
 .dropdown_content {
@@ -175,13 +206,6 @@ td img {
 }
 .dropdown:hover .dropdown_content {
     display: block;
-}
-.dropdown_content > .sub_button {
-    width: unset;
-    display: block;
-    width: 100%;
-
-    font-size: 24px;
 }
 
 .reset_font {
@@ -226,11 +250,7 @@ td img {
 
     transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out, outline 0.125s ease-in-out;
 }
-.background_blue.invert {
-    color: var(--color-blue);
-    background-color: var(--color-white);
-}
-.button.background_blue:hover {
+.background_blue.invert, .button.background_blue:hover {
     color: var(--color-blue);
     background-color: var(--color-white);
     outline: var(--color-blue) solid 4px;
@@ -244,11 +264,7 @@ td img {
 
     transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out, outline 0.125s ease-in-out;
 }
-.background_pink.invert {
-    color: var(--color-pink);
-    background-color: var(--color-white);
-}
-.button.background_pink:hover, .sub_button.background_pink:hover {
+.background_pink.invert, .button.background_pink:hover {
     color: var(--color-pink);
     background-color: var(--color-white);
     outline: var(--color-pink) solid 4px;
@@ -262,11 +278,7 @@ td img {
 
     transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out, outline 0.125s ease-in-out;
 }
-.background_red.invert {
-    color: var(--color-red);
-    background-color: var(--color-white);
-}
-.button.background_red:hover {
+.background_red.invert, .button.background_red:hover {
     color: var(--color-red);
     background-color: var(--color-white);
     outline: var(--color-red) solid 4px;
@@ -280,14 +292,10 @@ td img {
 
     transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out, outline 0.125s ease-in-out;
 }
-.background_white.invert {
+.background_white.invert, .button.background_white:hover {
     color: var(--color-white);
     background-color: var(--color-black);
-}
-.button.background_white:hover {
-    color: var(--color-white);
-    background-color: var(--color-black);
-    outline: var(--color-white) solid 4px;
+    outline: var(--color-black) solid 4px;
 }
 
 .background_yellow {
@@ -298,14 +306,17 @@ td img {
 
     transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out, outline 0.125s ease-in-out;
 }
-.background_yellow.invert {
-    color: var(--color-yellow);
-    background-color: var(--color-white);
-}
-.button.background_yellow:hover {
+.background_yellow.invert, .button.background_yellow:hover {
     color: var(--color-yellow);
     background-color: var(--color-white);
     outline: var(--color-yellow) solid 4px;
+}
+
+.no_outline, .background_blue.invert, .background_pink.invert, .background_red.invert, .background_white.invert, .background_yellow.invert {
+    outline-width: 0px;
+}
+.outline, .outline.invert {
+    outline-width: 4px;
 }
 
 .fill {
@@ -313,18 +324,20 @@ td img {
     height: calc(100% - var(--button-margin));
 }
 
-.home_button_header {
+.button_text {
     font-size: 24px;
-    padding: 4px;
+    padding: 8px;
     min-height: 36px;
 }
-.home_button_header_text {
+.button_header {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
 
     font-size: 24px;
     font-family: "Katahdin Round";
+
+    width: calc(100% - var(--button-margin));
 }
 .home_button_day {
     font-size: 24px;
@@ -341,6 +354,29 @@ td img {
 .home_button_description {
     font-size: 18px;
     padding: 2px 4px 2px 4px;
+}
+.home_button_image > img {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    height: 100%;
+    max-height: 128px;
+}
+
+.social {
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.facebook {
+    mask-image:         url("/assets/images/facebook.png");
+    -webkit-mask-image: url("/assets/images/facebook.png");
+}
+.instagram {
+    mask-image:         url("/assets/images/instagram.png");
+    -webkit-mask-image: url("/assets/images/instagram.png");
 }
 
 /* modal and close button */
