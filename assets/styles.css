@@ -43,6 +43,7 @@ html, body {
     }
 }
 
+/* tablet */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
     .mobile, .desktop {
         display: none;
@@ -151,6 +152,7 @@ img {
     max-height: 720px;
     max-width: calc(100% - var(--button-margin) * 2);
     margin: var(--button-margin);
+    cursor: pointer;
 }
 td img {
     max-width: 100%;
@@ -208,38 +210,18 @@ td img {
     display: block;
 }
 
-.reset_font {
-    font-family: "Arial";
-}
-
-.no_click {
-    cursor: unset;
-}
-
-.center {
-    text-align: center;
-}
-.left {
-    text-align: left;
-}
-
-.text_black {
-    color: var(--color-black);
-}
-.text_blue {
-    color: var(--color-blue);
-}
-.text_pink {
-    color: var(--color-pink);
-}
-.text_red {
-    color: var(--color-red);
-}
-.text_white {
+.background_black {
     color: var(--color-white);
+    background-color: var(--color-black);
+    outline: #00000000 solid 4px;
+    outline-offset: -4px;
+
+    transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out, outline 0.125s ease-in-out;
 }
-.text_yellow {
-    color: var(--color-yellow);
+.background_black.invert, .button.background_black:hover {
+    color: var(--color-black);
+    background-color: var(--color-white);
+    outline: var(--color-black) solid 4px;
 }
 
 .background_blue {
@@ -295,7 +277,7 @@ td img {
 .background_white.invert, .button.background_white:hover {
     color: var(--color-white);
     background-color: var(--color-black);
-    outline: var(--color-black) solid 4px;
+    outline: var(--color-white) solid 4px;
 }
 
 .background_yellow {
@@ -330,6 +312,16 @@ td img {
     min-height: 36px;
 }
 .button_header {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-size: 36px;
+    font-family: "Katahdin Round";
+
+    width: calc(100% - var(--button-margin));
+}
+.button_main {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
@@ -428,4 +420,41 @@ td img {
     background-color: #000000FF;
     padding: var(--button-margin);
     color: white;
+}
+
+.reset_font {
+    font-family: "Arial";
+}
+
+.no_click {
+    cursor: unset;
+}
+
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+
+.text_black {
+    color: var(--color-black);
+}
+.text_blue {
+    color: var(--color-blue);
+}
+.text_pink {
+    color: var(--color-pink);
+}
+.text_red {
+    color: var(--color-red);
+}
+.text_white {
+    color: var(--color-white);
+}
+.text_yellow {
+    color: var(--color-yellow);
 }

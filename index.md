@@ -8,14 +8,14 @@
         <td colspan="2">
             <a class="button background_pink" onclick="window.location.href='/events'">
                 <div class="button_text center">
-                    <div class="button_header">Sports & Fun Nights</div>
+                    <div class="button_main">Sports & Fun Nights</div>
                 </div>
             </a>
         </td>
     </tr>
     <tr>
         <td colspan="2">
-            <a class="button background_red" onclick="window.location.href='/events#christmas-in-june'">
+            <a class="button background_red" onclick="window.location.href='/events/christmas-in-june'">
                 <div class="button_text center">
                     <div class="home_button_day">Thursday</div>
                     <div class="home_button_date">June 23</div>
@@ -112,7 +112,7 @@
         <td colspan="2">
             <a class="fake_button background_yellow outline invert no_click">
                 <div class="button_text center">
-                    <div class="button_header">Follow us on social media!</div>
+                    <div class="button_main">Follow us on social media!</div>
                 </div>
             </a>
         </td>
@@ -145,14 +145,14 @@
         <td colspan="6">
             <a class="button background_pink" onclick="window.location.href='/events'">
                 <div class="button_text center">
-                    <div class="button_header">Sports & Fun Nights</div>
+                    <div class="button_main">Sports & Fun Nights</div>
                 </div>
             </a>
         </td>
     </tr>
     <tr>
         <td colspan="2">
-            <a class="button background_red" onclick="window.location.href='/events#christmas-in-june'">
+            <a class="button background_red" onclick="window.location.href='/events/christmas-in-june'">
                 <div class="button_text center">
                     <div class="home_button_day">Thursday</div>
                     <div class="home_button_date">June 23</div>
@@ -243,7 +243,7 @@
         <td colspan="4">
             <a class="fake_button background_yellow outline invert no_click">
                 <div class="button_text center">
-                    <div class="button_header">Follow us on social media!</div>
+                    <div class="button_main">Follow us on social media!</div>
                 </div>
             </a>
         </td>
@@ -274,12 +274,12 @@
         <td class="column" colspan="2">
             <a class="button background_pink" onclick="window.location.href='/events'">
                 <div class="button_text center">
-                    <div class="button_header">Sports & Fun Nights</div>
+                    <div class="button_main">Sports & Fun Nights</div>
                 </div>
             </a>
         </td>
         <td colspan="3">
-            <a class="button background_red" onclick="window.location.href='/events#christmas-in-june'">
+            <a class="button background_red" onclick="window.location.href='/events/christmas-in-june'">
                 <div class="button_text center">
                     <div class="home_button_day">Thursday</div>
                     <div class="home_button_date">June 23</div>
@@ -368,7 +368,7 @@
         <td colspan="9">
             <a class="fake_button background_yellow outline invert no_click">
                 <div class="button_text center">
-                    <div class="button_header">Follow us on social media!</div>
+                    <div class="button_main">Follow us on social media!</div>
                 </div>
             </a>
         </td>
