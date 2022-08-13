@@ -10,6 +10,7 @@ html, body {
 
     --color-black:      #000000FF;
     --color-blue:       #A4D7C4FF;
+    --color-green:      #75BA5DFF;
     --color-pink:       #F8A284FF;
     --color-red:        #F15A42FF;
     --color-white:      #FFFFFFFF;
@@ -23,8 +24,8 @@ html, body {
 }
 
 /* mobile */
-@media only screen and (max-width: 768px) {
-    .tablet, .desktop {
+@media only screen and (max-width: 992px) {
+    .desktop {
         display: none;
     }
     .mobile {
@@ -43,30 +44,9 @@ html, body {
     }
 }
 
-/* tablet */
-@media only screen and (min-width: 769px) and (max-width: 992px) {
-    .mobile, .desktop {
-        display: none;
-    }
-    .tablet {
-        display: block;
-    }
-    table.tablet {
-        display: table;
-    }
-    .body {
-        margin: 8px auto;
-
-        width: calc(100% - (4 * 8px));
-    }
-    .header_1 {
-        font-size: 84px;
-    }
-} 
-
 /* desktop */
-@media only screen and (min-width: 992px) {
-    .mobile, .tablet {
+@media only screen and (min-width: 993px) {
+    .mobile {
         display: none;
     }
     .desktop {
@@ -78,8 +58,8 @@ html, body {
     .body {
         margin: 8px auto;
 
+        min-width: calc(992px - (6 * 8px));
         width: 60%;
-        min-width: 960px;
     }
     .header_1 {
         font-size: 112px;
@@ -122,7 +102,7 @@ a, a:active, a:visited, a:hover {
 }
 
 p {
-    font-family: "Arial";
+    font-family: "Katahdin Round";
     padding: 4px 32px 4px 32px;
 }
 
@@ -179,7 +159,7 @@ td img {
     width: 100%;
 
     font-size: 24px;
-    padding: 8px 0px 8px 0px;
+    padding: 2px 0px 2px 0px;
 }
 .button .white {
     display: block;
@@ -238,6 +218,20 @@ td img {
     outline: var(--color-blue) solid 4px;
 }
 
+.background_green {
+    color: var(--color-white);
+    background-color: var(--color-green);
+    outline: #00000000 solid 4px;
+    outline-offset: -4px;
+
+    transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out, outline 0.125s ease-in-out;
+}
+.background_green.invert, .button.background_green:hover {
+    color: var(--color-green);
+    background-color: var(--color-white);
+    outline: var(--color-green) solid 4px;
+}
+
 .background_pink {
     color: var(--color-white);
     background-color: var(--color-pink);
@@ -294,7 +288,7 @@ td img {
     outline: var(--color-yellow) solid 4px;
 }
 
-.no_outline, .background_blue.invert, .background_pink.invert, .background_red.invert, .background_white.invert, .background_yellow.invert {
+.no_outline, .background_blue.invert, .background_green.invert, .background_pink.invert, .background_red.invert, .background_white.invert, .background_yellow.invert {
     outline-width: 0px;
 }
 .outline, .outline.invert {

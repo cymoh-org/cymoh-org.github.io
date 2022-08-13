@@ -1,0 +1,30 @@
+{
+    "events": [
+        "junior-camp",
+        "senior-camp"
+    ],
+    "junior-camp": {
+        "name":             "Junior Camp",
+        "description":      "Grades 1-5",
+        "date":             "July",
+        "days":             "3-6",
+        "location":         "Doris Todd Christian Academy",
+        "colors": {
+            "primary":      "PINK",
+            "secondary":    null,
+            "teriary":      null
+        }
+    },
+    "senior-camp": {
+        "name":             "Senior Camp",
+        "description":      "Grades 6-12",
+        "date":             "July",
+        "days":             "6-9",
+        "location":         "Doris Todd Christian Academy",
+        "colors": {
+            "primary":      "RED",
+            "secondary":    null,
+            "teriary":      null
+        }
+    }
+}

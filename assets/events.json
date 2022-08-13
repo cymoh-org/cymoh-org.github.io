@@ -1,0 +1,43 @@
+{
+    "events": [
+        "christmas-in-june",
+        "pirate-adventures",
+        "family-fun-night"
+    ],
+    "christmas-in-june": {
+        "name":             "Christmas in June",
+        "day":              "Thursday",
+        "date":             "June 23",
+        "location":         "Doris Todd",
+        "time":             "5-7 PM",
+        "colors": {
+            "primary":      "RED",
+            "secondary":    "BLUE",
+            "teriary":      null
+        }
+    },
+    "pirate-adventures": {
+        "name":             "Pirate Adventures",
+        "day":              "Tuesday",
+        "date":             "June 28",
+        "location":         "Location TBD",
+        "time":             "5-7 PM",
+        "colors": {
+            "primary":      "YELLOW",
+            "secondary":    "RED",
+            "teriary":      null
+        }
+    },
+    "family-fun-night": {
+        "name":             "Family Fun Night",
+        "day":              "Thursday",
+        "date":             "June 30",
+        "location":         "Location TBD",
+        "time":             "5-7 PM",
+        "colors": {
+            "primary":      "BLUE",
+            "secondary":    "PINK",
+            "teriary":      null
+        }
+    }
+}
